@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Array forEach</h2>
+    <p>Calls a funtion once for each array element.</p>
+    <p id="demo"></p>
+    <!-- <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+        Turn on the light
+    </button>
+
+    <img id="myImage" src="pic_bulboff.gif" style="width: 100px"/>
+
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
+        Turn off the light
+    </button>
+
+        <script src="index.js"></script> -->
+    <script>
+        var txt = "";
+        var numbers = [45, 4, 9, 16, 25];
+        numbers.forEach(myFuntion);
+        document.getElementById("demo").innerHTML = txt;
+
+        function myFuntion(value) {
+            txt = txt + value + "<br>";
+        }
+    </script>
+</body>
+</html>
